@@ -31,3 +31,7 @@ A warm dark & light Neovim colorscheme inspired by Anthropic's Claude palette (`
 - `:colorscheme claude` — automatically follows `vim.o.background` (`dark` / `light`)
 - `:colorscheme claude-dark` — dark variant
 - `:colorscheme claude-light` — light variant
+
+## VS Code / Cursor / Qoder
+
+The same palette ships as a VS Code color theme under [`vscode/`](./vscode). See [`vscode/README.md`](./vscode/README.md) for local install steps (Cursor/VS Code: symlink; Qoder: copy + `extensions.json` registration), then select **Claude Dark** / **Claude Light**.

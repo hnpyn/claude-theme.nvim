@@ -42,6 +42,8 @@ function M.load(variant)
   vim.o.termguicolors = true
   vim.g.colors_name = "claude"
 
+  package.loaded["claude-theme.palette"] = nil
+  package.loaded["claude-theme.groups"] = nil
   local palette = require("claude-theme.palette").get(variant)
   local groups = require("claude-theme.groups").get(palette, M.config)
 

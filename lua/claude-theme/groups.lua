@@ -125,10 +125,10 @@ function M.get(c, opts)
     Macro = { fg = c.purple },
     PreCondit = { fg = c.purple },
 
-    Type = { fg = c.cyan },
+    Type = { fg = c.purple },
     StorageClass = { fg = c.accent },
-    Structure = { fg = c.cyan },
-    Typedef = { fg = c.cyan },
+    Structure = { fg = c.purple },
+    Typedef = { fg = c.purple },
 
     Special = { fg = c.purple },
     SpecialChar = { fg = c.yellow },
@@ -175,8 +175,9 @@ function M.get(c, opts)
 
     -- Treesitter
     ["@variable"] = { fg = c.fg },
-    ["@variable.builtin"] = { fg = c.purple },
+    ["@variable.builtin"] = { fg = c.yellow },
     ["@variable.parameter"] = { fg = c.fg_alt },
+    ["@variable.parameter.builtin"] = { fg = c.yellow },
     ["@variable.member"] = { fg = c.fg },
 
     ["@constant"] = { link = "Constant" },
@@ -201,7 +202,7 @@ function M.get(c, opts)
     ["@number.float"] = { link = "Float" },
 
     ["@type"] = { link = "Type" },
-    ["@type.builtin"] = { fg = c.cyan },
+    ["@type.builtin"] = { fg = c.purple },
     ["@type.definition"] = { link = "Typedef" },
     ["@attribute"] = { fg = c.purple },
     ["@property"] = { fg = c.fg },
@@ -212,7 +213,7 @@ function M.get(c, opts)
     ["@function.macro"] = { link = "Macro" },
     ["@function.method"] = { link = "Function" },
     ["@function.method.call"] = { link = "Function" },
-    ["@constructor"] = { fg = c.cyan },
+    ["@constructor"] = { fg = c.purple },
 
     ["@operator"] = { link = "Operator" },
     ["@keyword"] = { link = "Keyword" },
@@ -339,10 +340,10 @@ function M.get(c, opts)
     BlinkCmpKind = { fg = c.accent },
     BlinkCmpKindFunction = { fg = c.blue },
     BlinkCmpKindMethod = { fg = c.blue },
-    BlinkCmpKindConstructor = { fg = c.cyan },
-    BlinkCmpKindClass = { fg = c.cyan },
-    BlinkCmpKindInterface = { fg = c.cyan },
-    BlinkCmpKindStruct = { fg = c.cyan },
+    BlinkCmpKindConstructor = { fg = c.purple },
+    BlinkCmpKindClass = { fg = c.purple },
+    BlinkCmpKindInterface = { fg = c.purple },
+    BlinkCmpKindStruct = { fg = c.purple },
     BlinkCmpKindModule = { fg = c.cyan },
     BlinkCmpKindVariable = { fg = c.fg },
     BlinkCmpKindField = { fg = c.fg },
@@ -350,7 +351,7 @@ function M.get(c, opts)
     BlinkCmpKindKeyword = { fg = c.accent },
     BlinkCmpKindSnippet = { fg = c.purple },
     BlinkCmpKindConstant = { fg = c.yellow },
-    BlinkCmpKindEnum = { fg = c.cyan },
+    BlinkCmpKindEnum = { fg = c.purple },
     BlinkCmpKindEnumMember = { fg = c.yellow },
     BlinkCmpDoc = { fg = c.fg, bg = c.bg_float },
     BlinkCmpDocBorder = { fg = c.border, bg = c.bg_float },
@@ -380,10 +381,10 @@ function M.get(c, opts)
     NeoTreeDirectoryName = { fg = c.blue },
     NeoTreeDirectoryIcon = { fg = c.blue },
     NeoTreeRootName = { fg = c.accent, bold = true },
-    NeoTreeGitAdded = { fg = c.green },
-    NeoTreeGitModified = { fg = c.yellow },
+    NeoTreeGitAdded = { fg = c.green_bright },
+    NeoTreeGitModified = { fg = c.yellow_bright },
     NeoTreeGitDeleted = { fg = c.red },
-    NeoTreeGitUntracked = { fg = c.accent },
+    NeoTreeGitUntracked = { fg = c.green_bright },
     NeoTreeIndentMarker = { fg = c.border },
 
     -- Bufferline

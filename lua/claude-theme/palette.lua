@@ -62,8 +62,8 @@ M.palettes = {
     blue_bright = "#87b4e0",
     purple = "#9a86fd",
     purple_bright = "#b1b9f9",
-    cyan = "#4db3a2",
-    cyan_bright = "#6ccac0",
+    cyan = "#5eb5c9",
+    cyan_bright = "#7ec9d8",
 
     -- Subtle diff backgrounds
     diff_add = "#233125",
@@ -84,7 +84,7 @@ M.palettes = {
         "#e0a345",
         "#6a9bcc",
         "#9a86fd",
-        "#4db3a2",
+        "#5eb5c9",
         "#b5b3a9",
       },
       bright = {
@@ -94,7 +94,7 @@ M.palettes = {
         "#ecc06c",
         "#87b4e0",
         "#b1b9f9",
-        "#6ccac0",
+        "#7ec9d8",
         "#faf9f5",
       },
     },
@@ -126,8 +126,8 @@ M.palettes = {
     blue_bright = "#4377c4",
     purple = "#6b4ea2",
     purple_bright = "#8465bd",
-    cyan = "#1d6f72",
-    cyan_bright = "#2b8a8e",
+    cyan = "#1f7287",
+    cyan_bright = "#2c89a0",
 
     -- Subtle diff backgrounds
     diff_add = "#e4f0e7",
@@ -148,7 +148,7 @@ M.palettes = {
         "#9a5b13",
         "#2c5ea8",
         "#6b4ea2",
-        "#1d6f72",
+        "#1f7287",
         "#87867f",
       },
       bright = {
@@ -158,7 +158,7 @@ M.palettes = {
         "#b87324",
         "#4377c4",
         "#8465bd",
-        "#2b8a8e",
+        "#2c89a0",
         "#f0eee6",
       },
     },
