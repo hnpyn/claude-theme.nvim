@@ -250,8 +250,7 @@
       "scope": [
         "constant",
         "entity.name.constant",
-        "variable.other.constant",
-        "variable.language"
+        "variable.other.constant"
       ],
       "settings": {
         "foreground": "#e0a345"
@@ -289,12 +288,20 @@
     {
       "scope": [
         "entity.name.function",
-        "meta.function-call",
-        "support.function",
+        "meta.function-call.generic",
         "keyword.other.special-method"
       ],
       "settings": {
         "foreground": "#6a9bcc"
+      }
+    },
+    {
+      "scope": [
+        "support.function",
+        "support.function.builtin"
+      ],
+      "settings": {
+        "foreground": "#d97757"
       }
     },
     {
@@ -305,7 +312,18 @@
         "support.class"
       ],
       "settings": {
-        "foreground": "#d97757"
+        "foreground": "#ecc06c"
+      }
+    },
+    {
+      "scope": [
+        "support.type.primitive",
+        "support.type.builtin",
+        "support.type.python",
+        "entity.name.type.numeric"
+      ],
+      "settings": {
+        "foreground": "#9a86fd"
       }
     },
     {
@@ -336,7 +354,14 @@
     },
     {
       "scope": [
-        "keyword.operator",
+        "keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#5eb5c9"
+      }
+    },
+    {
+      "scope": [
         "punctuation.separator",
         "punctuation.terminator"
       ],
@@ -361,7 +386,7 @@
         "constant.regexp"
       ],
       "settings": {
-        "foreground": "#e0a345"
+        "foreground": "#5eb5c9"
       }
     },
     {
@@ -370,7 +395,7 @@
         "constant.character.escape"
       ],
       "settings": {
-        "foreground": "#9a86fd"
+        "foreground": "#5eb5c9"
       }
     },
     {
@@ -380,7 +405,7 @@
         "meta.property-name"
       ],
       "settings": {
-        "foreground": "#5eb5c9"
+        "foreground": "#d97757"
       }
     },
     {
@@ -399,7 +424,7 @@
         "meta.function.parameters"
       ],
       "settings": {
-        "foreground": "#f0eee6"
+        "foreground": "#ccb09e"
       }
     },
     {
@@ -414,12 +439,26 @@
     },
     {
       "scope": [
-        "variable.language.this",
-        "variable.language.super",
-        "variable.language.self"
+        "entity.name.function.decorator",
+        "meta.decorator",
+        "meta.decorator entity.name.function",
+        "punctuation.definition.decorator"
       ],
       "settings": {
-        "foreground": "#e0a345"
+        "foreground": "#d97757"
+      }
+    },
+    {
+      "scope": [
+        "variable.language",
+        "variable.language.this",
+        "variable.language.super",
+        "variable.language.self",
+        "variable.parameter.function.language.special.self.python",
+        "variable.parameter.function.language.special.cls.python"
+      ],
+      "settings": {
+        "foreground": "#d97757"
       }
     },
     {
@@ -559,19 +598,27 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "namespace": "#5eb5c9",
-    "type": "#d97757",
-    "class": "#d97757",
-    "enum": "#d97757",
-    "interface": "#d97757",
-    "struct": "#d97757",
-    "typeParameter": "#d97757",
-    "parameter": "#f0eee6",
+    "type": "#ecc06c",
+    "type.defaultLibrary": "#9a86fd",
+    "class": "#ecc06c",
+    "class.builtin": "#9a86fd",
+    "class.defaultLibrary": "#9a86fd",
+    "enum": "#ecc06c",
+    "interface": "#ecc06c",
+    "struct": "#ecc06c",
+    "typeParameter": "#ecc06c",
+    "parameter": "#ccb09e",
+    "selfParameter": "#d97757",
+    "clsParameter": "#d97757",
+    "variable.defaultLibrary": "#d97757",
     "variable": "#f0eee6",
     "property": "#f0eee6",
     "enumMember": "#e0a345",
     "function": "#6a9bcc",
+    "function.defaultLibrary": "#d97757",
     "method": "#6a9bcc",
-    "macro": "#9a86fd",
+    "method.defaultLibrary": "#d97757",
+    "macro": "#d97757",
     "keyword": "#9a86fd",
     "comment": {
       "foreground": "#7c7b74",
@@ -579,8 +626,8 @@
     },
     "string": "#4eba65",
     "number": "#e0a345",
-    "regexp": "#e0a345",
-    "operator": "#b5b3a9",
-    "decorator": "#9a86fd"
+    "regexp": "#5eb5c9",
+    "operator": "#5eb5c9",
+    "decorator": "#d97757"
   }
 }

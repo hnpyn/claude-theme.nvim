@@ -25,6 +25,8 @@ local M = {}
 ---@field purple_bright string
 ---@field cyan string
 ---@field cyan_bright string
+---@field type string
+---@field param string
 ---@field diff_add string
 ---@field diff_change string
 ---@field diff_delete string
@@ -64,6 +66,8 @@ M.palettes = {
     purple_bright = "#b1b9f9",
     cyan = "#5eb5c9",
     cyan_bright = "#7ec9d8",
+    type = "#ecc06c",
+    param = "#ccb09e",
 
     -- Subtle diff backgrounds
     diff_add = "#233125",
@@ -116,18 +120,20 @@ M.palettes = {
     cursor = "#d97757",
 
     -- Semantic / ANSI colors
-    red = "#b5332a",
+    red = "#be3b30",
     red_bright = "#d97757",
-    green = "#27794b",
+    green = "#2f7d44",
     green_bright = "#35945e",
-    yellow = "#9a5b13",
+    yellow = "#965a14",
     yellow_bright = "#b87324",
-    blue = "#2c5ea8",
+    blue = "#2f67b8",
     blue_bright = "#4377c4",
-    purple = "#6b4ea2",
+    purple = "#7b3fa0",
     purple_bright = "#8465bd",
     cyan = "#1f7287",
     cyan_bright = "#2c89a0",
+    type = "#9c660c",
+    param = "#8c5e4c",
 
     -- Subtle diff backgrounds
     diff_add = "#e4f0e7",
@@ -143,11 +149,11 @@ M.palettes = {
     ansi = {
       normal = {
         "#141413",
-        "#b5332a",
-        "#27794b",
-        "#9a5b13",
-        "#2c5ea8",
-        "#6b4ea2",
+        "#be3b30",
+        "#2f7d44",
+        "#965a14",
+        "#2f67b8",
+        "#7b3fa0",
         "#1f7287",
         "#87867f",
       },
