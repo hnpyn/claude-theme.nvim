@@ -56,8 +56,8 @@ M.palettes = {
     -- Semantic / ANSI colors
     red = "#e05252",
     red_bright = "#d97757",
-    green = "#4eba65",
-    green_bright = "#6fd182",
+    green = "#87b368",
+    green_bright = "#9ec77f",
     yellow = "#e0a345",
     yellow_bright = "#ecc06c",
     blue = "#6a9bcc",
@@ -66,8 +66,8 @@ M.palettes = {
     purple_bright = "#b1b9f9",
     cyan = "#5eb5c9",
     cyan_bright = "#7ec9d8",
-    type = "#ecc06c",
-    param = "#ccb09e",
+    type = "#e0a345",
+    param = "#f0eee6",
 
     -- Subtle diff backgrounds
     diff_add = "#233125",
@@ -84,7 +84,7 @@ M.palettes = {
       normal = {
         "#302f2c",
         "#e05252",
-        "#4eba65",
+        "#87b368",
         "#e0a345",
         "#6a9bcc",
         "#9a86fd",
@@ -94,7 +94,7 @@ M.palettes = {
       bright = {
         "#7c7b74",
         "#d97757",
-        "#6fd182",
+        "#9ec77f",
         "#ecc06c",
         "#87b4e0",
         "#b1b9f9",
@@ -122,8 +122,8 @@ M.palettes = {
     -- Semantic / ANSI colors
     red = "#be3b30",
     red_bright = "#d97757",
-    green = "#2f7d44",
-    green_bright = "#35945e",
+    green = "#4f7532",
+    green_bright = "#588238",
     yellow = "#965a14",
     yellow_bright = "#b87324",
     blue = "#2f67b8",
@@ -132,8 +132,8 @@ M.palettes = {
     purple_bright = "#8465bd",
     cyan = "#1f7287",
     cyan_bright = "#2c89a0",
-    type = "#9c660c",
-    param = "#8c5e4c",
+    type = "#965a14",
+    param = "#141413",
 
     -- Subtle diff backgrounds
     diff_add = "#e4f0e7",
@@ -150,7 +150,7 @@ M.palettes = {
       normal = {
         "#141413",
         "#be3b30",
-        "#2f7d44",
+        "#4f7532",
         "#965a14",
         "#2f67b8",
         "#7b3fa0",
@@ -160,7 +160,7 @@ M.palettes = {
       bright = {
         "#5e5d59",
         "#d97757",
-        "#35945e",
+        "#588238",
         "#b87324",
         "#4377c4",
         "#8465bd",
