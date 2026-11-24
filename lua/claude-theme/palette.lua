@@ -57,7 +57,7 @@ M.palettes = {
     red = "#e05252",
     red_bright = "#d97757",
     green = "#87b368",
-    green_bright = "#9ec77f",
+    green_bright = "#6fd182",
     yellow = "#e6b355",
     yellow_bright = "#ecc06c",
     blue = "#6a9bcc",
@@ -84,7 +84,7 @@ M.palettes = {
       normal = {
         "#302f2c",
         "#e05252",
-        "#87b368",
+        "#4eba65",
         "#e6b355",
         "#6a9bcc",
         "#ab88bd",
@@ -94,7 +94,7 @@ M.palettes = {
       bright = {
         "#7c7b74",
         "#d97757",
-        "#9ec77f",
+        "#6fd182",
         "#ecc06c",
         "#87b4e0",
         "#c2a4d1",
@@ -123,7 +123,7 @@ M.palettes = {
     red = "#be3b30",
     red_bright = "#d97757",
     green = "#4f7532",
-    green_bright = "#588238",
+    green_bright = "#35945e",
     yellow = "#965a14",
     yellow_bright = "#b87324",
     blue = "#2f67b8",
@@ -150,7 +150,7 @@ M.palettes = {
       normal = {
         "#141413",
         "#be3b30",
-        "#4f7532",
+        "#2c7a39",
         "#965a14",
         "#2f67b8",
         "#7e5294",
@@ -160,7 +160,7 @@ M.palettes = {
       bright = {
         "#5e5d59",
         "#d97757",
-        "#588238",
+        "#35945e",
         "#b87324",
         "#4377c4",
         "#9568ab",
